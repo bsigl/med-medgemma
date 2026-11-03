@@ -25,6 +25,10 @@ import time
 import itertools
 from typing import Optional, Dict, Any
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 # Default configuration
 DEFAULT_MAX_NEW_TOKENS = 512
